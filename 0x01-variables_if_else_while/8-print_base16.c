@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 /**
   * main - prints base 16 numbers in lowercase
   * Return: alwats 0 (success)
@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i < 10; i++)
 		putchar(i + '0');
 	for (x = 'a'; x <= 'f'; i++)
-		putchar(i);
+		putchar(x);
 	putchar('\n');
 	return (0);
 }
